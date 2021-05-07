@@ -32,9 +32,7 @@
 
 const numberOfSteps = function(num) {
   let iterations = 0
-  if (num === 0) {
-      return 0
-  }
+  if (num === 0) return 0
   while (num !== 0) {
     if (num % 2 === 0) {
       num = num/2
@@ -49,5 +47,5 @@ const numberOfSteps = function(num) {
   }
 }
 
-console.log(numberOfSteps(14))
+console.log(numberOfSteps(0))
 // Output: 6
